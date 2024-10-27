@@ -31,3 +31,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### App 
+Using Vue & TypeScript, create a web application for studying using digital flashcards. This app has two modes: initializing mode and studying mode. During initializing mode, users input digital flashcards. A digital flashcard consists of two properties: question and answer. After the user has finished inputing all digital cards they need, the app can proceed into studying mode.
+During studying mode, the flashcards are organized into a deck, with each card displaying only the question. When the user clicks a card, a modal appears with a form displaying the question, a field for the answer, and a submit button. After clicking the submit button, the correct answer is revealed in the modal. The modal also has a button to close it. This app uses an array instead of a database for storage.
